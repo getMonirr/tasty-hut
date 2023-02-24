@@ -11,8 +11,109 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>welCome to tasty hut</h1>
+<body class="bg-white">
+    <header class="py-4">
+        <div class="container mx-auto">
+            <div class="navbar bg-white">
+                <div class="navbar-start">
+                    <img src="./assets/images/Tasty_HUT.png" alt="">
+                </div>
+                <div class="navbar-end">
+                    <a class="btn bg-warning border-0 text-black font-bold hover:bg-warning">Sign Up</a>
+                </div>
+            </div>
+        </div>
+        <!-- hero  -->
+        <div class="hero h-[75vh]" style="background-image: url(./assets/images/banner_1.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content">
+                <div class="max-w-md">
+                    <h1 class="mb-5 text-5xl font-bold text-white">Taste Our Delicious Best Foods</h1>
+                    <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority
+                        have suffered alteration in some form, by injected humou.</p>
+                    <div class="form-control">
+                        <div class="input-group justify-center">
+                            <input type="text" placeholder="Search…" class="input input-bordered bg-white" />
+                            <button class="btn btn-warning">
+                                search
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </header>
+    <!-- show meal  -->
+    <main>
+        <section class="container mx-auto py-8">
+            <h2 class="my-8 font-bold text-5xl text-black text-center">Your favorite food</h2>
+            <!-- show meal -->
+            <div class="grid grid-cols-2 gap-4">
+                <!-- meal goes here -->
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Show details</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 shadow-xl">
+                    <figure><img src="/images/stock/photo-1635805737707-575885ab0820.jpg" alt="Movie" /></figure>
+                    <div class="card-body">
+                        <h2 class="card-title">New movie is released!</h2>
+                        <p>Click the button to watch on Jetflix app.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Show details</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center my-8">
+                <a href="#" class="btn bg-warning border-0 text-black font-bold hover:bg-warning">Show all</a>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer p-10 bg-base-200 text-base-content">
+        <div>
+            <span class="footer-title">Services</span>
+            <a class="link link-hover">Branding</a>
+            <a class="link link-hover">Design</a>
+            <a class="link link-hover">Marketing</a>
+            <a class="link link-hover">Advertisement</a>
+        </div>
+        <div>
+            <span class="footer-title">Company</span>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+        </div>
+        <div>
+            <span class="footer-title">Legal</span>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+        </div>
+        <div>
+            <span class="footer-title">Newsletter</span>
+            <div class="form-control w-80">
+                <label class="label">
+                    <span class="label-text">Enter your email address</span>
+                </label>
+                <div class="relative">
+                    <input type="text" placeholder="username@site.com" class="input input-bordered w-full pr-16" />
+                    <button class="btn btn-primary absolute top-0 right-0 rounded-l-none">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- javascript file  -->
     <script src="./assets/js/tasty-hut.js"></script>
 </body>
